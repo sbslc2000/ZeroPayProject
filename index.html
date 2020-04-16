@@ -12,22 +12,10 @@
 <div id="map" style="width:100%;height:100%;"></div>
 
 <script>
-naver.maps.Service.geocode({
-        query: '제로페이'
-    }, function(status, response) {
-        if (status !== naver.maps.Service.Status.OK) {
-            return alert('Something wrong!');
-        }
 
-        var result = response.v2, // 검색 결과의 컨테이너
-            items = result.addresses; // 검색 결과의 배열
-
-        console.log(items);
-    });
-   
 var mapOptions = {
     center: new naver.maps.LatLng(37.504203, 126.956849),
-    zoom: 14
+    zoom: 7
 };
 
 var map = new naver.maps.Map('map', mapOptions);
