@@ -1,6 +1,5 @@
 
 
-function init() {
     Console.log("hello");
     var positions = [
         {
@@ -657,6 +656,3 @@ function init() {
           }
         
 
-}
-
-init();
