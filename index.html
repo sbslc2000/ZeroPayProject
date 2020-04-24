@@ -14,18 +14,20 @@
   <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=8a8dbb75cbdfb69b12086ee82b6ace8c"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <div class="jumbotron">
+    <div class="container">
     <h1>제로페이 사용가능 가게 확인</h1>
     <div id="map" style="width:500px;height:400px;text-align:center;"></div>
-    <script>	
-      var container = document.getElementById('map');
-      var options = {
-        center: new kakao.maps.LatLng(37.506814, 126.960778),
-        level: 3
-      };
-   
-    var map = new kakao.maps.Map(container, options);
-  
-  </script>
+       <script>	
+          var container = document.getElementById('map');
+          var options = {
+            center: new kakao.maps.LatLng(37.506814, 126.960778),
+            level: 3
+          };
+      
+        var map = new kakao.maps.Map(container, options);
+      
+        </script>
+   </div>
   </div>
   <script src="HeukSeok.js"></script> 
   </body>
