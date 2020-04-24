@@ -1,6 +1,4 @@
 
-
-    Console.log("hello");
     var positions = [
         {
             title: '(사)한국시스템다이내믹스학회',
